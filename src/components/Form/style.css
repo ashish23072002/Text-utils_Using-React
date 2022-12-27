@@ -1,0 +1,57 @@
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    margin: 3.2rem 0;
+  }
+  a {
+    color: #333;
+  }
+  a:hover {
+    color: #da5767;
+    text-decoration: none;
+  }
+  .card {
+    border: 0.1rem solid #f8f9fa;
+    padding: 0 3.2rem;
+    background-color:silver;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    
+  }
+  .form-control:focus {
+    color: #000000;
+    background-color: #ffffff;
+    border: inset 0.5rem solid #da5767;
+    outline: 0;
+    box-shadow: none;
+  }
+  input {
+    width: 25rem;
+    padding: 1rem 2rem;
+    font-family: "Work Sans", sans-serif;
+    outline: 0;
+    border: none;
+    font-size: 1.2rem;
+  }
+  .btn {
+    padding: 0.6rem 1.2rem;
+    background-color: #df8c96;
+    border-color: #df8c96;
+    margin-bottom: 3.2rem;
+  }
+  .btn-primary:hover {
+    background: #da5767;
+    border: inset 0.2rem solid #da5767;
+    transition: 0.3s;
+  }

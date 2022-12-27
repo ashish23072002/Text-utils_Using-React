@@ -1,0 +1,61 @@
+.pointer-link {
+    cursor: pointer !important ;
+}
+.box-container{
+display: flex;
+flex-direction: row;
+}
+/* Red box container */
+.red-container {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  /* Green box container */
+  .green-container {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Blue box container */
+  .blue-container {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-my1 {
+    display: flex;
+    flex-direction: row;
+    margin : 3px;
+    padding-right: 10px;
+  }
+  
+  .box {
+    width: 20px;
+    height: 20px;
+    margin : 3px;
+    border-radius: 100px;
+    opacity: 0.80;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border: none;
+  }
+  .box:hover{
+    width: 22px;
+    height: 22px;
+    margin : 3px;
+    border-radius: 100px;
+    cursor: pointer;
+    opacity: 0.99;
+  }

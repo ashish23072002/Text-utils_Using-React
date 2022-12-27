@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    width:auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+.panel {
+    padding: 5%;
+    border: 1px solid red;
+    margin: 10%;
+    display: inline-block;
+}   
+
+.buttons-style{
+    border: none;
+	padding: 1.1em 6.5em;
+	background: #00abc6;
+	color: #fff;
+	font-family: 'TitilliumText22LRegular', Arial, sans-serif;
+	font-weight:bold;
+	font-size: 1.1em;
+	border-radius: 0px;
+}
+.buttons-style:hover{
+    background: #3E3E3E;
+    border: 2px solid red;
+}
+.digit{
+    margin-left: 5%;
+    /* padding-top: -30%; */
+}
