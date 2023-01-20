@@ -4,7 +4,7 @@ import Alert from './components/about/Alert'
 // import Counting from './components/Base/Counting'
 // import Restrauant from './components/Basics/Restrauant'
 // import UseStateObject from './components/Form/UseStateObject'
-// import About from './components/about/About'
+import About from './components/about/About'
 import Navbar from './components/about/Navbar'
 import TextForm from './components/about/TextForm'
 // import GameBoard from './components/games/GameBoard'
@@ -60,7 +60,7 @@ const App = () => {
       <Navbar mode={mode} toggleMode={toggleMode} aboutText={'i am about'} title={'Click Me'} />
       <Alert alert={alert}/>
       <TextForm mode={mode} showAlert={showAlert}/>
-      {/* <About /> */}
+      <About />
 
 
       {/* <Routes>
